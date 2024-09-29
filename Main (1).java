@@ -1,6 +1,6 @@
 public class Main {
     public static void main (String[] args) {
-        PersonalAccount account = new PersonalAccount(12345, "Meerim");
+        PersonalAccount account = new PersonalAccount(100, "ak");
 
         System.out.println(account.getAccountNumber() + " " + account.getAccountHolder() + ":");
         account.deposit(1000);
